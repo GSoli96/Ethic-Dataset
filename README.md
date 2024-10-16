@@ -25,7 +25,7 @@ The main characteristics of the dataset are shown in the following table.
 |      Sexual       | 1.315  |   563  |
 |     Shocking      |   671  |   359  |
 |     Violence      |   471  |   181  |
-|      *Total*        | 4.501  | 1.836  |
+|      **Total**        | 4.501  | 1.836  |
 
 
 ## Data Usage Agreement/ How to cite
