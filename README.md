@@ -74,7 +74,7 @@ By using this dataset, you agree to cite the following article:
 ```
 @inproceedings{cirillo2024ethical,
   title={Can Multimodal LLMs Generate Unsafe Media? A New Approach to Explore Risks using LLMs and Projected Gradient Descent},
-  author={Cirillo,De Santis L., S., and Solimando, G., Francese, R.},
+  author={Cirillo, S., De Santis, L., Francese, R., and Solimando, G.},
   booktitle={TBD},
   year={2024}
 }
