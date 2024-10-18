@@ -27,15 +27,54 @@ The main characteristics of the dataset are shown in the following table.
 |     Violence      |   471  |   181  |
 |      **Total**        | 4.501  | 1.836  |
 
+# Environment Setup Instructions
+
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/GSoli96/LLM-enhanced-PGD.git
+   ```
+2. Navigate into the Project Directory
+   ```bash
+   cd LLM-enhanced-PGD
+   ```
+3. Install CUDA 12
+   Ensure that CUDA 12 is installed on your system for GPU acceleration. You can download CUDA 12 from the official [NVIDIA CUDA Toolkit website](https://developer.nvidia.com/cuda-12-1-0-download-archive). Follow the installation instructions provided by NVIDIA for your operating system.
+4. Create a Virtual Environment with Python 3.11
+   Make sure you have Python 3.11 installed on your system. Then, create a virtual environment by running:
+   ```bash
+    python3.11 -m venv venv   
+   ```
+5. Activate the Virtual Environment
+    - On Windows
+    ```bash
+    .\venv\Scripts\activate  
+   ```
+   - On macOs/Linux
+   ```bash
+    source venv/bin/activate
+   ```
+6. Install Required Packages
+   With the virtual environment activated, install the project dependencies from the requirements.txt file:
+   ```bash
+    pip install -r requirements.txt
+   ```
+7. Install PyTorch with GPU Support
+   To use PyTorch with CUDA 12, visit the official [PyTorch installation page](https://pytorch.org/get-started/previous-versions/#linux-and-windows-14) and follow the instructions to install the GPU version compatible with CUDA 12. You can run a command like the following to install it:
+   ```bash
+   pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+   ```
+
 
 ## Data Usage Agreement/ How to cite
+
+The code and datasets are not publicly accessible and can be obtained upon request by submitting an application through the following [form](https://docs.google.com/forms/d/e/1FAIpQLSdRNdrCEeheJ5AjAT88FWeBw7Zwx-24tOR8Xdte9J_H_EnUHw/viewform)
 
 By using this dataset, you agree to cite the following article: 
 
 ```
 @inproceedings{cirillo2024ethical,
   title={Can Multimodal LLMs Generate Unsafe Media? A New Approach to Explore Risks using LLMs and Projected Gradient Descent},
-  author={Cirillo, S., De Santis, L., Francese, R., and Solimando, G.},
+  author={De Santis L., Cirillo, S., and Solimando, G., Francese, R.},
   booktitle={TBD},
   year={2024}
 }
